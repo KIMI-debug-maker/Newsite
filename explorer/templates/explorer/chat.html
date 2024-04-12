@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="">
+      <meta name="keywords" content="admin template,html 5 admin template , explorer admin , dashboard template, bootstrap 5 admin template, responsive admin template">
+      <title>Explorer |Chat
+      </title>
+      <!-- shortcut icon-->
+      <link rel="icon" href="/static/assets/images/logo/explorer.png" type="image/x-icon">
+      <link rel="shortcut icon" href="/static/assets/images/logo/explorer.png" type="image/x-icon">
+      <!-- Fonts css-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+      <!-- Font awesome -->
+      <link href="/static/assets/css/vendor/font-awesome.css" rel="stylesheet">
+      <!-- themify icon-->
+      <link href="/static/assets/css/vendor/themify-icons.css" rel="stylesheet">
+      <!-- Scrollbar-->
+      <link href="/static/assets/css/vendor/simplebar.css" rel="stylesheet">
+      <!-- Bootstrap css-->
+      <link href="/static/assets/css/vendor/bootstrap.css" rel="stylesheet">
+      <!-- Custom css-->
+      <link href="/static/assets/css/style.css" id="customstyle" rel="stylesheet">
+    </head>
+  <body>
+      <!-- Loader Start-->
+        <div class="codex-loader">     
+          <div class="linespinner"></div>
+        </div>
+      <!-- Loader End-->
+      <!-- Header Start-->
+      <header class="codex-header">
+        <div class="header-contian d-flex justify-content-between align-items-center">
+          <div class="header-left d-flex align-items-center">
+            <div class="sidebar-action navicon-wrap"><i data-feather="menu"></i></div>
+            <div class="search-bar">
+              <div class="form-group mb-0">
+                <div class="input-group">
+                  <input class="form-control" type="text" value="" placeholder="Search Here....."><span class="input-group-text"><i data-feather="search"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-right d-flex align-items-center justify-content-end">
+            <ul class="nav-iconlist">
+              <li>
+                <div class="navicon-wrap action-dark"><i class="fa fa-moon-o icon-dark"></i><i class="fa fa-sun-o icon-light" style="display:none;"></i></div>
+              </li>
+              <li>
+                <div class="navicon-wrap"><i data-feather="bell"></i>
+                  <div class="noti-count">03</div>
+                </div>
+                <div class="hover-dropdown navnotification-drop">
+                  <div class="drop-header">
+                    <h5>notification<span>03</span></h5>
+                  </div>
+                  <ul data-simplebar>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-primary"><i class="fa fa-check-square-o"></i></div>
+                          <div class="media-body">
+                            <h6>Israeli-Palestinian conflict</h6><span class="text-light">1 hour ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-secondary"><i class="fa fa-first-order"></i></div>
+                          <div class="media-body">
+                            <h6>FED</h6><span class="text-light">1 day ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-success"><i class="fa fa-money"></i></div>
+                          <div class="media-body">
+                            <h6>Fintech</h6><span class="text-light">2 day ago</span>
+                          </div>
+                        </div></a></li>
+                  </ul>
+
+                </div>
+              </li>
+              <li>
+                <div class="navicon-wrap btn-windowfull"><i data-feather="maximize"></i></div>
+              </li>
+              <li class="nav-profile">
+                <div class="media">
+                  <div class="user-icon"><img class="img-fluid rounded-50" src="/static/assets/images/avtar/1.jpg" alt="logo"></div>
+                  <div class="media-body">
+                    <h6>Thomas Vactom</h6>
+                  </div>
+                </div>
+                <div class="hover-dropdown navprofile-drop">
+                  <ul>
+                    <li><a href="/explorer/settings"><i class="ti-user"></i>profile</a></li>
+<!--                    <li><a href="email-inbox.html"><i class="ti-email"></i>inbox</a></li>-->
+                    <li><a href="/explorer/settings"><i class="ti-settings"></i>setting</a></li>
+                    <li><a href="/explorer"><i class="fa fa-sign-out"></i>log out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Header End-->
+      <!-- sidebar start-->
+      <aside class="codex-sidebar">
+        <div class="logo-gridwrap"><a class="codexbrand-logo" href="/explorer/index"><img class="img-fluid left-corner-img" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a><a class="codex-darklogo" href="/explorer/index"><img class="img-fluid" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a>
+          <div class="sidebar-action"><i data-feather="menu"></i></div>
+        </div>
+        <div class="icon-logo"><a href="/explorer/index"><img class="img-fluid" src="/static/assets/images/logo/icon-logo.png" alt="theeme-logo"></a></div>
+        <div class="codex-menuwrapper">
+          <ul class="codex-menu custom-scroll" data-simplebar>
+            <li class="cdxmenu-title">
+              <h5>Home</h5>
+            </li>
+            <li class="menu-item"><a href="/explorer/index">
+                <div class="icon-item"><i class="fa fa-search"></i></div><span>Discover</span></a></li>
+            <li class="menu-item"><a href="/explorer/portfolio">
+                <div class="icon-item"><i class="fa fa-user-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-user-circle" aria-label="fa fa-user-circle"></i></div><span>My Portfolio</span></a></li>
+            <li class="cdxmenu-title">
+              <h5>application</h5>
+            </li>
+
+            <li class="menu-item"><a href="javascript:void(0);">
+                <div class="icon-item"><i class="fa fa-newspaper-o" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-newspaper-o" aria-label="fa fa-newspaper-o"></i></div><span>Events</span><i class="fa fa-angle-down"></i></a>
+              <ul class="submenu-list">
+                <li><a href="/explorer/timeline">Timeline</a></li>
+                <li><a href="/explorer/analysis">Analysis</a></li>
+                <li><a href="/explorer/perspective">Perspective</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item"><a href="/explorer/chatting">
+                <div class="icon-item"><i data-feather="message-square"></i></div><span>Chat</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/inference">
+                <div class="icon-item"><i class="fa fa-fighter-jet" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-fighter-jet" aria-label="fa fa-fighter-jet"></i></div><span>Inference</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/settings">
+                <div class="ti-settings"><i ></i></div><span>&nbsp&nbspSetting</span></a></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- sidebar end-->
+    <div class="themebody-wrap">
+      <!-- breadcrumb start-->
+        <div class="codex-breadcrumb">  
+          <div class="breadcrumb-contain">
+            <div class="left-breadcrumb">
+              <ul class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="/explorer/index">
+                    <h1>Application</h1></a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0);">Chat</a></li>
+
+              </ul>
+            </div>
+            <div class="right-breadcrumb">
+              <ul>
+                <li>
+                  <div class="bread-wrap"><i class="fa fa-clock-o"></i></div><span class="liveTime"></span>
+                </li>
+                <li>
+                  <div class="bread-wrap"><i class="fa fa-calendar"></i></div><span class="getDate"> </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <!-- breadcrumb end-->
+      <!-- theme body start-->
+      <div class="theme-body codex-chat">
+        <div class="custom-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="cdxchat-contain">
+                <div class="row">
+                  <div class="col chat-sidebar">
+                    <div class="card mb-0">
+                      <div class="card-body">                   
+                        <div class="admin-profile">
+                          <div class="media">
+                            <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/1.jpg" alt=""></div>
+                            <div class="media-body">
+                              <ul class="chaticon-list">
+                                <li><a href="javascript:void(0)"><i data-feather="message-square"></i></a></li>
+                                <li>
+                                  <div class="action-menu">
+                                    <div class="action-toggle"><i data-feather="more-vertical">                    </i></div>
+                                    <ul class="action-dropdown">
+                                      <li><a href="javascript:void(0)"> <i data-feather="users"></i>New Group</a></li>
+                                      <li><a href="javascript:void(0)"> <i data-feather="user"></i>Profile</a></li>
+                                      <li><a href="javascript:void(0)"> <i data-feather="message-circle"></i>Starred messages</a></li>
+                                      <li><a href="/explorer/settings"> <i data-feather="settings"></i>Settings</a></li>
+                                      <li><a href="/explorer"> <i data-feather="log-out"></i>Log out</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="input-group"><span class="input-group-text"><i data-feather="search"></i></span>
+                            <input class="form-control" type="text" placeholder="Search">
+                          </div>
+                        </div>
+                        <ul class="user-caht-list" data-simplebar>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/1.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>World Finance</h6>
+                                <p> Typing..                      </p>
+                              </div>
+                              <div class="caht-status"> <span class="time-status">2:45<small class="ml-5">am</small></span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/2.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Finance101</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Tuesday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/3.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>CashflowClub</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="badge badge-rounded-primary">5</span><span class="time-status">Wednesday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/4.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>WealthTech World</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Friday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/5.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>CryptoCove</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">5:50<small class="ml-5">pm</small></span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/6.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Alex Spencer</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">1:33<small class="ml-5">am</small></span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/7.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Johan Deo</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Wednesday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/8.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Thomas Vactom</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Tuesday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/9.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Alex Spencer</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">1:33<small class="ml-5">am     </small></span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/10.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Mark Wongar</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Friday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/11.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Lina Odem</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">5:50<small class="ml-5">pm</small></span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/12.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Alex Spencer</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">1:33<small class="ml-5">am</small></span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/13.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Johan Deo</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Wednesday</span></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/14.jpg" alt=""></div>
+                              <div class="media-body">
+                                <h6>Thomas Vactom</h6>
+                                <p> At work</p>
+                              </div>
+                              <div class="caht-status"><span class="time-status">Tuesday   </span></div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">                  
+                    <div class="chat-body">
+                      <div class="media">               
+                        <div class="userimg-wrap"><img class="img-fluid" src="/static/assets/images/avtar/2.jpg" alt=""></div>
+                        <div class="media-body">
+                          <h6>World Finance</h6>
+                          <p>online</p>
+                        </div>
+                        <ul class="chaticon-list">                      
+                          <li><a href="javascript:void(0)"><i data-feather="search"></i></a></li>
+                          <li><a href="javascript:void(0)"><i data-feather="phone"></i></a></li>
+                          <li><a href="javascript:void(0)"><i data-feather="video"></i></a></li>
+                          <li>
+                            <div class="action-menu">                         
+                              <div class="action-toggle"><i data-feather="more-vertical">  </i></div>
+                              <ul class="action-dropdown">
+                                <li><a href="javascript:void(0)"> <i data-feather="info"></i>Contact info                         </a></li>
+                                <li><a href="javascript:void(0)"> <i data-feather="volume-x"></i>Mute notifications</a></li>
+                                <li><a href="javascript:void(0)"> <i data-feather="x-octagon"></i>Clear messages</a></li>
+                                <li><a href="javascript:void(0)"> <i data-feather="trash-2"></i>Delete chat                       </a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="userchat-msgbox" data-simplebar>
+                        <ul>
+                          <li>
+                            <div class="user-msgbox"> 
+                              <div class="chat-contain"><img class="img-fluid" src="/static/assets/images/avtar/2.jpg" alt="">
+                                <p>Have you seen the latest report on emerging market growth? Seems like Southeast Asia is outpacing predictions.</p>
+                              </div><span class="msg-seen">2:45 <small>pm</small></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="admin-msgbox">
+                              <div class="chat-contain">
+                                <p>Absolutely, Taylor. I was just going through that. The e-commerce boom and digital penetration in the region are significant factors. It's creating a lot of opportunities for investors.
+                                </p><img class="img-fluid" src="/static/assets/images/avtar/1.jpg" alt="">
+                              </div><span class="msg-seen">2:50 <small class="mr-5">pm</small><i class="text-primary" data-feather="check"></i><i class="text-primary" data-feather="check"></i></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="admin-msgbox">
+                              <div class="chat-contain">
+                                <p> Do you think this will alter the landscape of global finance in the long run?</p><img class="img-fluid" src="/static/assets/images/avtar/1.jpg" alt="">
+                              </div><span class="msg-seen">2:51 <small class="mr-5">pm</small><i class="text-primary" data-feather="check"></i><i class="text-primary" data-feather="check"></i></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="user-msgbox">
+                              <div class="chat-contain"><img class="img-fluid" src="/static/assets/images/avtar/2.jpg" alt="">
+                                <p>I believe so. With technologies like AI and blockchain becoming more prevalent, we're looking at a more decentralized and efficient financial ecosystem. The West can learn a lot from how these startups are navigating the regulatory and infrastructural challenges.</p>
+                              </div><span class="msg-seen">4:30 <small class="mr-5">pm                       </small></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="admin-msgbox">
+                              <div class="chat-contain">
+                                <p>Speaking of regulations, I've been closely following the EU's stance on green bonds. It's fascinating how they're pushing for a more sustainable financial market. Any thoughts?</p><img class="img-fluid" src="/static/assets/images/avtar/1.jpg" alt="">
+                              </div><span class="msg-seen">4:35 <small class="mr-5">pm</small><i class="text-primary" data-feather="check"></i><i class="text-primary" data-feather="check"></i></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="user-msgbox">
+                              <div class="chat-contain"><img class="img-fluid" src="/static/assets/images/avtar/2.jpg" alt="">
+                                <p>Green finance is gaining traction. With the EU's Green Deal and their commitment to climate neutrality by 2050, green bonds are just the tip of the iceberg. It's also influencing corporate strategies as companies are becoming more ESG-compliant.
+                                </p>
+                              </div><span class="msg-seen">5:01 <small class="mr-5">pm</small></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="user-msgbox">
+                              <div class="chat-contain"><img class="img-fluid" src="/static/assets/images/avtar/2.jpg" alt="">
+                                <p>Agreed. On another note, are you attending the Global Finance Summit next month? I hear they're discussing the future of digital currencies and central bank digital currencies (CBDCs).</p>
+                              </div><span class="msg-seen">5:05 <small class="mr-5">pm</small></span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="admin-msgbox">
+                              <div class="chat-contain">
+                                <p>Yes, I've registered. CBDCs are a hot topic, especially with countries like China piloting their digital yuan. It's going to be a game-changer for cross-border transactions and global trade.</p><img class="img-fluid" src="/static/assets/images/avtar/1.jpg" alt="">
+                              </div><span class="msg-seen">6:29 <small class="mr-5">pm</small><i class="text-primary" data-feather="check"></i><i class="text-primary" data-feather="check">                </i></span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="userchat-typebox d-flex">                  <a class="btn btn-primary mr-10"><i data-feather="smile"></i></a>
+                        <input class="form-control" type="text" placeholder="Type a message" value="" autocomplete="off"><a class="btn btn-primary ml-10"><i data-feather="mic"></i></a><a class="btn btn-primary ml-10"><i data-feather="send"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- theme body end-->
+    </div>
+    <!-- footer start-->
+      <footer class="codex-footer">
+        <p>Copyright 2023 © Explorer All rights reserved.</p>
+      </footer>
+    <!-- footer end-->
+    <!-- back to top start //-->
+      <div class="scroll-top"><i class="fa fa-angle-double-up"></i></div>
+    <!-- back to top end //-->
+      <!-- main jquery-->
+      <script src="/static/assets/js/jquery-3.6.0.js"></script>
+      <!-- Theme Customizer-->
+      <script src="/static/assets/js/layout-storage.js"></script>
+      <script src="/static/assets/js/customizer.js"></script>
+      <!-- Feather icons js-->
+      <script src="/static/assets/js/icons/feather-icon/feather.js"></script>
+      <!-- Bootstrap js-->
+      <script src="/static/assets/js/bootstrap.bundle.min.js"></script>
+      <!-- Scrollbar-->
+      <script src="/static/assets/js/vendors/simplebar.js"></script>
+      <!-- Custom script-->
+      <script src="/static/assets/js/custom-script.js"></script>
+  </body>
+</html>

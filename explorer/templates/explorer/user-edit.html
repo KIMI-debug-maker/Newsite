@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="">
+      <meta name="keywords" content="admin template,html 5 admin template , explorer admin , dashboard template, bootstrap 5 admin template, responsive admin template">
+      <title>Explore |User Edit
+      </title>
+      <!-- shortcut icon-->
+      <link rel="icon" href="../assets/images/logo/explorer.png" type="image/x-icon">
+      <link rel="shortcut icon" href="/static/assets/images/logo/explorer.png" type="image/x-icon">
+      <!-- Fonts css-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+      <!-- Font awesome -->
+      <link href="/static/assets/css/vendor/font-awesome.css" rel="stylesheet">
+      <!-- themify icon-->
+      <link href="/static/assets/css/vendor/themify-icons.css" rel="stylesheet">
+      <!-- select 2 css-->
+      <link href="/static/assets/css/vendor/select2/select2.min.css" rel="stylesheet">
+      <!-- Scrollbar-->
+      <link href="/static/assets/css/vendor/simplebar.css" rel="stylesheet">
+      <!-- Bootstrap css-->
+      <link href="/static/assets/css/vendor/bootstrap.css" rel="stylesheet">
+      <!-- Custom css-->
+      <link href="/static/assets/css/style.css" id="customstyle" rel="stylesheet">
+    </head>
+  <body>
+      <!-- Loader Start-->
+        <div class="codex-loader">     
+          <div class="linespinner"></div>
+        </div>
+      <!-- Loader End-->
+      <!-- Header Start-->
+      <header class="codex-header">
+        <div class="header-contian d-flex justify-content-between align-items-center">
+          <div class="header-left d-flex align-items-center">
+            <div class="sidebar-action navicon-wrap"><i data-feather="menu"></i></div>
+            <div class="search-bar">
+              <div class="form-group mb-0">
+                <div class="input-group">
+                  <input class="form-control" type="text" value="" placeholder="Search Here....."><span class="input-group-text"><i data-feather="search"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-right d-flex align-items-center justify-content-end">
+            <ul class="nav-iconlist">
+              <li>
+                <div class="navicon-wrap action-dark"><i class="fa fa-moon-o icon-dark"></i><i class="fa fa-sun-o icon-light" style="display:none;"></i></div>
+              </li>
+              <li>
+                <div class="navicon-wrap"><i data-feather="bell"></i>
+                  <div class="noti-count">03</div>
+                </div>
+                <div class="hover-dropdown navnotification-drop">
+                  <div class="drop-header">
+                    <h5>notification<span>03</span></h5>
+                  </div>
+                  <ul data-simplebar>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-primary"><i class="fa fa-check-square-o"></i></div>
+                          <div class="media-body">
+                            <h6>Israeli-Palestinian conflict</h6><span class="text-light">1 hour ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-secondary"><i class="fa fa-first-order"></i></div>
+                          <div class="media-body">
+                            <h6>FED</h6><span class="text-light">1 day ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-success"><i class="fa fa-money"></i></div>
+                          <div class="media-body">
+                            <h6>Fintech</h6><span class="text-light">2 day ago</span>
+                          </div>
+                        </div></a></li>
+                  </ul>
+
+                </div>
+              </li>
+              <li>
+                <div class="navicon-wrap btn-windowfull"><i data-feather="maximize"></i></div>
+              </li>
+              <li class="nav-profile">
+                <div class="media">
+                  <div class="user-icon"><img class="img-fluid rounded-50" src="/static/assets/images/avtar/1.jpg" alt="logo"></div>
+                  <div class="media-body">
+                    <h6>Thomas Vactom</h6>
+                  </div>
+                </div>
+                <div class="hover-dropdown navprofile-drop">
+                  <ul>
+                    <li><a href="/explorer/settings"><i class="ti-user"></i>profile</a></li>
+<!--                    <li><a href="email-inbox.html"><i class="ti-email"></i>inbox</a></li>-->
+                    <li><a href=""><i class="ti-settings"></i>setting</a></li>
+                    <li><a href="/explorer"><i class="fa fa-sign-out"></i>log out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Header End-->
+      <!-- sidebar start-->
+      <aside class="codex-sidebar">
+        <div class="logo-gridwrap"><a class="codexbrand-logo" href="/explorer/index"><img class="img-fluid left-corner-img" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a><a class="codex-darklogo" href="/explorer/index"><img class="img-fluid" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a>
+          <div class="sidebar-action"><i data-feather="menu"></i></div>
+        </div>
+        <div class="icon-logo"><a href="/explorer/index"><img class="img-fluid" src="/static/assets/images/logo/icon-logo.png" alt="theeme-logo"></a></div>
+        <div class="codex-menuwrapper">
+          <ul class="codex-menu custom-scroll" data-simplebar>
+            <li class="cdxmenu-title">
+              <h5>Home</h5>
+            </li>
+            <li class="menu-item"><a href="/explorer/index">
+                <div class="icon-item"><i class="fa fa-search"></i></div><span>Discover</span></a></li>
+            <li class="menu-item"><a href="/explorer/portfolio">
+                <div class="icon-item"><i class="fa fa-user-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-user-circle" aria-label="fa fa-user-circle"></i></div><span>My Portfolio</span></a></li>
+            <li class="cdxmenu-title">
+              <h5>application</h5>
+            </li>
+
+            <li class="menu-item"><a href="javascript:void(0);">
+                <div class="icon-item"><i class="fa fa-newspaper-o" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-newspaper-o" aria-label="fa fa-newspaper-o"></i></div><span>Events</span><i class="fa fa-angle-down"></i></a>
+              <ul class="submenu-list">
+                <li><a href="/explorer/timeline">Timeline</a></li>
+                <li><a href="/explorer/analysis">Analysis</a></li>
+                <li><a href="/explorer/perspective">Perspective</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item"><a href="/explorer/chatting">
+                <div class="icon-item"><i data-feather="message-square"></i></div><span>Chat</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/inference">
+                <div class="icon-item"><i class="fa fa-fighter-jet" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-fighter-jet" aria-label="fa fa-fighter-jet"></i></div><span>Inference</span></a></li>
+
+            <li class="menu-item"><a href="">
+                <div class="ti-settings"><i ></i></div><span>&nbsp&nbspSetting</span></a></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- sidebar end-->
+    <div class="themebody-wrap">
+      <!-- breadcrumb start-->
+        <div class="codex-breadcrumb">  
+          <div class="breadcrumb-contain">
+            <div class="left-breadcrumb">
+              <ul class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="/explorer/index">
+                    <h1>Home</h1></a></li>
+                <li class="breadcrumb-item"><a href="javascript:void(0);">application</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0);">Setting</a></li>
+              </ul>
+            </div>
+            <div class="right-breadcrumb">
+              <ul>
+                <li>
+                  <div class="bread-wrap"><i class="fa fa-clock-o"></i></div><span class="liveTime"></span>
+                </li>
+                <li>
+                  <div class="bread-wrap"><i class="fa fa-calendar"></i></div><span class="getDate"> </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <!-- breadcrumb end-->
+      <!-- theme body start-->
+      <div class="theme-body">
+        <div class="custom-container codexedit-profile">
+          <div class="row">         
+            <div class="col-xl-4 col-md-5 cdx-xl-40">   
+              <div class="card">
+                <div class="card-header">
+                  <h4>My Infomation</h4>
+                </div>
+                <div class="card-body"> 
+                  <div class="info-group mb-20"> 
+                    <div class="media align-items-center">
+                      <div class="userimg-wrap mr-15"><img class="img-fluid w-50" src="/static/assets/images/avtar/1.jpg" alt=""></div>
+                      <div class="media-body">
+                        <h6>Thomas Vactom</h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-group"> 
+                    <form>
+                      <div class="form-group">
+                        <div class="small-group">
+                          <div>
+                            <label class="form-label">First Name</label>
+                            <input class="form-control" type="text" placeholder="your first name" value="Thomas">
+                          </div>
+                          <div>                  
+                            <label class="form-label">Last Name</label>
+                            <input class="form-control" type="text" placeholder="your last name" value="Vactom">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="small-group">
+                          <div>
+                            <label class="form-label">Day</label>
+                            <select class="form-control hidesearch" name="day[]">
+                              <option>01</option>
+                              <option>02</option>
+                              <option>03</option>
+                              <option>04</option>
+                              <option>05</option>
+                              <option>06</option>
+                            </select>
+                          </div>
+                          <div>
+                            <label class="form-label">Month                         </label>
+                            <select class="form-control hidesearch" name="month[]">
+                              <option>Jan</option>
+                              <option>Feb</option>
+                              <option>March</option>
+                              <option>April</option>
+                              <option>May</option>
+                              <option>Jun</option>
+                            </select>
+                          </div>
+                          <div>
+                            <label class="form-label">Year</label>
+                            <select class="form-control hidesearch" name="year[]">
+                              <option>1992</option>
+                              <option>1993</option>
+                              <option>1994</option>
+                              <option>1995</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Industry</label>
+                        <input class="form-control" type="text" placeholder="your industry" value="Industry">
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Email Address</label>
+                        <input class="form-control" type="text" placeholder="your email" value="mark@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Mobile</label>
+                        <input class="form-control" type="text" placeholder="your mobile number" value="+9588489584">
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Gender</label>
+                        <input class="form-control" type="text" placeholder="your website" value="Gender">
+                      </div>
+                      <div class="form-group mb-0"><a class="btn btn-primary" href="javascript:void(0)">submit</a></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-8 col-md-7 cdx-xl-60">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Basic infomation</h4>
+                </div>
+                <div class="card-body">
+                  <form>
+                    <div class="form-group">
+                      <div class="small-group">
+                        <div>
+                          <label class="form-label">About bio</label>
+                          <input class="form-control" type="number" placeholder="Enter your bio">
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="small-group"> 
+                        <div>
+                          <label class="form-label">Address</label>
+                          <input class="form-control" type="text" placeholder="Enter your address">
+                        </div>
+                        <div>
+                          <label class="form-label">Website </label>
+                          <input class="form-control" type="text" placeholder="Website link">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="small-group"> 
+                        <div>
+                          <label class="form-label">company</label>
+                          <input class="form-control" type="text" placeholder="Enter company name">
+                        </div>
+                        <div>
+                          <label class="form-label">Postal/zip code </label>
+                          <input class="form-control" type="text" placeholder="Zip code">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="small-group"> 
+                        <div>
+                          <label class="form-label">Title</label>
+                          <input class="form-control" type="text" placeholder="Enter your title">
+                        </div>
+                        <div>
+                          <label class="form-label">city</label>
+                          <input class="form-control" type="text" placeholder="Enter your city">
+                        </div>
+                        <div>
+                          <label class="form-label">country</label>
+                          <input class="form-control" type="text" placeholder="Enter your country">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label style='font-weight: 450'>Field of Interest</label>
+                      <textarea class="form-control" placeholder="Enter the stocks, commodities, celebrities and regions you are interested in "></textarea>
+                    </div>
+                    <div class="form-group mb-0">
+                      <div class="group-btn"><a class="btn btn-success" href="javascript:void(0)">update</a><a class="btn btn-danger" href="javascript:void(0)">Cancel</a></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- theme body end-->
+    </div>
+    <!-- footer start-->
+      <footer class="codex-footer">
+        <p>Copyright 2023 © Explorer All rights reserved.</p>
+      </footer>
+    <!-- footer end-->
+    <!-- back to top start //-->
+      <div class="scroll-top"><i class="fa fa-angle-double-up"></i></div>
+    <!-- back to top end //-->
+      <!-- main jquery-->
+      <script src="/static/assets/js/jquery-3.6.0.js"></script>
+      <!-- Theme Customizer-->
+      <script src="/static/assets/js/layout-storage.js"></script>
+<!--      <script src="/static/assets/js/customizer.js"></script>-->
+      <!-- Feather icons js-->
+      <script src="/static/assets/js/icons/feather-icon/feather.js"></script>
+      <!-- Bootstrap js-->
+      <script src="/static/assets/js/bootstrap.bundle.min.js"></script>
+      <!-- Scrollbar-->
+      <script src="/static/assets/js/vendors/simplebar.js"></script>
+      <!-- select 2 js-->
+      <script src="/static/assets/js/vendors/select2/select2.min.js"></script>
+      <script src="/static/assets/js/vendors/select2/custom-select2.js"> </script>
+      <!-- Custom script-->
+      <script src="/static/assets/js/custom-script.js"></script>
+  </body>
+</html>

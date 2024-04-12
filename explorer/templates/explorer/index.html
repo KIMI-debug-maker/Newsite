@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="">
+      <meta name="keywords" content="admin template,html 5 admin template , dmeki admin , dashboard template, bootstrap 5 admin template, responsive admin template">
+      <title>Explorer |Home
+      </title>
+      <!-- shortcut icon-->
+      <link rel="icon" href="/static/assets/images/logo/explorer.png" type="image/x-icon">
+      <link rel="shortcut icon" href="/static/assets/images/logo/explorer.png" type="image/x-icon">
+      <!-- Fonts css-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+      <!-- Font awesome -->
+      <link href="/static/assets/css/vendor/font-awesome.css" rel="stylesheet">
+      <!-- themify icon-->
+      <link href="/static/assets/css/vendor/themify-icons.css" rel="stylesheet">
+      <!-- flag icon-->
+      <link href="/static/assets/css/vendor/flag-icon/flag-icon.css" rel="stylesheet">
+      <!-- Scrollbar-->
+      <link href="/static/assets/css/vendor/simplebar.css" rel="stylesheet">
+      <!-- Bootstrap css-->
+      <link href="/static/assets/css/vendor/bootstrap.css" rel="stylesheet">
+      <!-- Custom css-->
+      <link href="/static/assets/css/style.css" id="customstyle" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    </head>
+  <body>
+      <!-- Loader Start-->
+        <div class="codex-loader">     
+          <div class="linespinner"></div>
+        </div>
+      <!-- Loader End-->
+      <!-- Header Start-->
+    <header class="codex-header">
+        <div class="header-contian d-flex justify-content-between align-items-center">
+          <div class="header-left d-flex align-items-center">
+            <div class="sidebar-action navicon-wrap"><i data-feather="menu"></i></div>
+            <div class="search-bar">
+              <div class="form-group mb-0">
+                <div class="input-group">
+                  <input class="form-control" type="text" value="" placeholder="Search Here....."><span class="input-group-text"><i data-feather="search"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-right d-flex align-items-center justify-content-end">
+            <ul class="nav-iconlist">
+              <li>
+                <div class="navicon-wrap action-dark"><i class="fa fa-moon-o icon-dark"></i><i class="fa fa-sun-o icon-light" style="display:none;"></i></div>
+              </li>
+              <li>
+                <div class="navicon-wrap"><i data-feather="bell"></i>
+                  <div class="noti-count">03</div>
+                </div>
+                <div class="hover-dropdown navnotification-drop">
+                  <div class="drop-header">
+                    <h5>notification<span>03</span></h5>
+                  </div>
+                  <ul data-simplebar>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-primary"><i class="fa fa-check-square-o"></i></div>
+                          <div class="media-body">
+                            <h6>Israeli-Palestinian conflict</h6><span class="text-light">1 hour ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-secondary"><i class="fa fa-first-order"></i></div>
+                          <div class="media-body">
+                            <h6>FED</h6><span class="text-light">1 day ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-success"><i class="fa fa-money"></i></div>
+                          <div class="media-body">
+                            <h6>Fintech</h6><span class="text-light">2 day ago</span>
+                          </div>
+                        </div></a></li>
+                  </ul>
+
+                </div>
+              </li>
+              <li>
+                <div class="navicon-wrap btn-windowfull"><i data-feather="maximize"></i></div>
+              </li>
+              <li class="nav-profile">
+                <div class="media">
+                  <div class="user-icon"><img class="img-fluid rounded-50" src="/static/assets/images/avtar/1.jpg" alt="logo"></div>
+                  <div class="media-body">
+                    <h6>Thomas Vactom</h6>
+                  </div>
+                </div>
+                <div class="hover-dropdown navprofile-drop">
+                  <ul>
+                    <li><a href="/explorer/settings/"><i class="ti-user"></i>profile</a></li>
+<!--                    <li><a href="email-inbox.html"><i class="ti-email"></i>inbox</a></li>-->
+                    <li><a href="/explorer/settings"><i class="ti-settings"></i>setting</a></li>
+                    <li><a href="/explorer"><i class="fa fa-sign-out"></i>log out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Header End-->
+      <!-- sidebar start-->
+        <aside class="codex-sidebar">
+        <div class="logo-gridwrap"><a class="codexbrand-logo" href=""><img class="img-fluid left-corner-img" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a><a class="codex-darklogo" href=""><img class="img-fluid" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a>
+          <div class="sidebar-action"><i data-feather="menu"></i></div>
+        </div>
+        <div class="icon-logo"><a href=""><img class="img-fluid" src="/static/assets/images/logo/icon-logo.png" alt="theeme-logo"></a></div>
+        <div class="codex-menuwrapper">
+          <ul class="codex-menu custom-scroll" data-simplebar>
+            <li class="cdxmenu-title">
+              <h5>Home</h5>
+            </li>
+            <li class="menu-item"><a href="">
+                <div class="icon-item"><i class="fa fa-search"></i></div><span>Discover</span></a></li>
+            <li class="menu-item"><a href="/explorer/portfolio">
+                <div class="icon-item"><i class="fa fa-user-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-user-circle" aria-label="fa fa-user-circle"></i></div><span>My Portfolio</span></a></li>
+            <li class="cdxmenu-title">
+              <h5>application</h5>
+            </li>
+
+            <li class="menu-item"><a href="javascript:void(0);">
+                <div class="icon-item"><i class="fa fa-newspaper-o" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-newspaper-o" aria-label="fa fa-newspaper-o"></i></div><span>Events</span><i class="fa fa-angle-down"></i></a>
+              <ul class="submenu-list">
+                <li><a href="/explorer/timeline">Timeline</a></li>
+                <li><a href="/explorer/analysis">Analysis</a></li>
+                <li><a href="/explorer/perspective">Perspective</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item"><a href="/explorer/chatting">
+                <div class="icon-item"><i data-feather="message-square"></i></div><span>Chat</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/inference">
+                <div class="icon-item"><i class="fa fa-fighter-jet" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-fighter-jet" aria-label="fa fa-fighter-jet"></i></div><span>Inference</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/settings">
+                <div class="ti-settings"><i ></i></div><span>&nbsp&nbspSetting</span></a></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- sidebar end-->
+    <div class="themebody-wrap">
+      <!-- breadcrumb start-->
+      <div class="codex-breadcrumb">
+        <div class="breadcrumb-contain">
+          <div class="left-breadcrumb">
+            <ul class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="">
+                  <h1>Discover</h1></a></li>
+              <li class="breadcrumb-item active"><a href="javascript:void(0);">
+                <script>
+                  const d = new Date();
+                  let hour = d.getHours();
+                  if(hour<12){
+                    document.write("<h1 style='width:300px'>Good morning</h1>");
+                  }
+                  else if(hour<18){
+                    document.write("<h1 style='width:300px'>Good afternoon</h1>");
+                  }
+                  else{
+                    document.write("<h1 style='width:300px'>Good evening</h1>");
+                  }
+                </script>
+              </a></li>
+            </ul>
+          </div>
+          <div class="right-breadcrumb">
+            <ul>
+              <li>
+                <div class="bread-wrap"><i class="fa fa-clock-o"></i></div><span class="liveTime"></span>
+              </li>
+              <li>
+                <div class="bread-wrap"><i class="fa fa-calendar"></i></div><span class="getDate"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- breadcrumb end-->
+      <!-- theme body start-->
+      <div class="theme-body common-dash" data-simplebar>
+        <div class="custom-container">
+          <div class="row">
+            <div class="col-xl-4 cdx-xl-50">
+              <div class="card welcome-card overflow-hidden">
+                <div class="card-body">
+                  <a href="{{news.url1}}">
+                  <h4>{{news.title1}}</h4>
+                  </a>
+                  <p class="mb-10">{{news.content1}}</p>
+                </div>
+                <div class="card-body">
+                  <a href="{{news.url2}}">
+                  <h4>{{news.title2}}</h4>
+                  </a>
+                  <p class="mb-10">{{news.content2}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 cdx-xl-50">
+              <div class="card earning-chart">
+
+                <div class="card-header">
+                  <h4>Index History</h4>
+
+                </div>
+
+                <div class="card-body">
+                  <div class="site-impres">
+                    <h2><span class="counter">3839.50</span></h2>
+                    <p class="text-light">S&P 500</p>
+                  </div>
+                  <div id="chart">
+                    <script>
+                    // 数据源，用于绘制折线图
+                    var options = {
+                          series: [{
+                            name: "S&P 500",
+                            data: [4631.6,
+ 4602.45,
+ 4530.41,
+ 4545.86,
+ 4582.64,
+ 4525.12,
+ 4481.15,
+ 4500.21,
+ 4488.28,
+ 4412.53,
+ 4397.45,
+ 4446.59,
+ 4392.59,
+ 4391.69,
+ 4462.21,
+ 4459.45,
+ 4393.66,
+ 4271.78,
+ 4296.12,
+ 4175.2,
+ 4183.96,
+ 4287.5,
+ 4131.93,
+ 4155.38,
+ 4175.48,
+ 4300.17,
+ 4146.87,
+ 4123.34,
+ 3991.24,
+ 4001.05,
+ 3935.18,
+ 3930.08,
+ 4023.89,
+ 4008.01,
+ 4088.85,
+ 3923.68,
+ 3900.79,
+ 3901.36,
+ 3973.75,
+ 3941.48,
+ 3978.73,
+ 4057.84,
+ 4158.24,
+ 4132.15,
+ 4101.23,
+ 4176.82,
+ 4108.54,
+ 4121.43,
+ 4160.68,
+ 4115.77,
+ 4017.82,
+ 3900.86,
+ 3749.63,
+ 3735.48,
+ 3789.99,
+ 3666.77,
+ 3674.84,
+ 3764.79,
+ 3759.89,
+ 3795.73,
+ 3911.74,
+ 3900.11,
+ 3821.55,
+ 3818.83,
+ 3785.38,
+ 3825.33,
+ 3831.39,
+ 3845.08,
+ 3902.62,
+ 3899.38,
+ 3854.43,
+ 3818.8,
+ 3801.78,
+ 3790.38,
+ 3863.16,
+ 3830.85,
+ 3936.69,
+ 3959.9,
+ 3998.95,
+ 3961.63,
+ 3966.84,
+ 3921.05,
+ 4023.61,
+ 4072.43,
+ 4130.29,
+ 4118.63,
+ 4091.19,
+ 4155.17,
+ 4151.94,
+ 4145.19,
+ 4140.06,
+ 4122.47,
+ 4210.24,
+ 4207.27,
+ 4280.15,
+ 4297.14,
+ 4305.2,
+ 4274.04,
+ 4283.74,
+ 4228.48,
+ 4137.99]
+                        }],
+                          chart: {
+                          height: 350,
+                          type: 'line',
+                          zoom: {
+                            enabled: false
+                          }
+                        },
+                        dataLabels: {
+                          enabled: false
+                        },
+                        yaxis : {
+                        labels:{show:false}
+                        },
+
+                        stroke: {
+                          curve: 'straight'
+                        },
+                        title: {
+                          text: '',
+                          align: 'left'
+                        },
+                        grid: {
+                          row: {
+                            colors: ['#f3f3f3', 'transparent'],
+                            opacity: 0.5
+                          },
+                        },
+                        xaxis: {
+                          categories: ['20220329',
+ '20220330',
+ '20220331',
+ '20220401',
+ '20220404',
+ '20220405',
+ '20220406',
+ '20220407',
+ '20220408',
+ '20220411',
+ '20220412',
+ '20220413',
+ '20220414',
+ '20220418',
+ '20220419',
+ '20220420',
+ '20220421',
+ '20220422',
+ '20220425',
+ '20220426',
+ '20220427',
+ '20220428',
+ '20220429',
+ '20220502',
+ '20220503',
+ '20220504',
+ '20220505',
+ '20220506',
+ '20220509',
+ '20220510',
+ '20220511',
+ '20220512',
+ '20220513',
+ '20220516',
+ '20220517',
+ '20220518',
+ '20220519',
+ '20220520',
+ '20220523',
+ '20220524',
+ '20220525',
+ '20220526',
+ '20220527',
+ '20220531',
+ '20220601',
+ '20220602',
+ '20220603',
+ '20220606',
+ '20220607',
+ '20220608',
+ '20220609',
+ '20220610',
+ '20220613',
+ '20220614',
+ '20220615',
+ '20220616',
+ '20220617',
+ '20220621',
+ '20220622',
+ '20220623',
+ '20220624',
+ '20220627',
+ '20220628',
+ '20220629',
+ '20220630',
+ '20220701',
+ '20220705',
+ '20220706',
+ '20220707',
+ '20220708',
+ '20220711',
+ '20220712',
+ '20220713',
+ '20220714',
+ '20220715',
+ '20220718',
+ '20220719',
+ '20220720',
+ '20220721',
+ '20220722',
+ '20220725',
+ '20220726',
+ '20220727',
+ '20220728',
+ '20220729',
+ '20220801',
+ '20220802',
+ '20220803',
+ '20220804',
+ '20220805',
+ '20220808',
+ '20220809',
+ '20220810',
+ '20220811',
+ '20220812',
+ '20220815',
+ '20220816',
+ '20220817',
+ '20220818',
+ '20220819',
+ '20220822'],labels:{show:false}
+                        }
+                        };
+
+                    var chart = new ApexCharts(document.querySelector("#chart"), options);
+                    chart.render();
+                  </script>
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+            <div class="col-xl-4 cdx-xl-50 cdxorder-xl-1">
+              <div class="card countri-tbl">
+                <div class="card-header">
+                  <h4>World Index</h4>
+                  <div class="setting-card action-menu">
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table tblbody-p0">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-umi"></i></div>
+                              <div class="media-body">S&P500</div>
+                            </div>
+                          </td>
+                          <td class="{{index.SP500.direction1}}">{{index.SP500.pct_chang}}%<i class="{{index.SP500.direction2}}"></i></td>
+                          <td>{{index.SP500.change}}</td>
+                          <td>
+                            <h6>{{index.SP500.value}}</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-umi"></i></div>
+                              <div class="media-body">Dow Jones</div>
+                            </div>
+                          </td>
+                          <td class="{{index.Dow.direction1}}">{{index.Dow.pct_chang}}%<i class="{{index.Dow.direction2}}"></i></td>
+                          <td>{{index.Dow.change}}</td>
+                          <td>
+                            <h6>{{index.Dow.value}}</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-umi"></i></div>
+                              <div class="media-body">NASDAQ</div>
+                            </div>
+                          </td>
+                          <td class="{{index.NASDAQ.direction1}}">{{index.NASDAQ.pct_chang}}%<i class="{{index.NASDAQ.direction2}}"></i></td>
+                          <td>{{index.NASDAQ.change}}</td>
+                          <td>
+                            <h6>{{index.NASDAQ.value}}</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-jpn"></i></div>
+                              <div class="media-body">Nikkei</div>
+                            </div>
+                          </td>
+                          <td class="{{index.Nikkei.direction1}}">{{index.Nikkei.pct_chang}}%<i class="{{index.Nikkei.direction2}}"></i></td>
+                          <td>{{index.Nikkei.change}}</td>
+                          <td> 
+                            <h6>{{index.Nikkei.value}}</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-rus"></i></div>
+                              <div class="media-body">RTS Index</div>
+                            </div>
+                          </td>
+                          <td class="{{index.RTS.direction1}}">{{index.RTS.pct_chang}}%<i class="{{index.RTS.direction2}}"></i></td>
+                          <td>{{index.RTS.change}}</td>
+                          <td> 
+                            <h6>{{index.RTS.value}}</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-ind"></i></div>
+                              <div class="media-body">BSE SENSEX</div>
+                            </div>
+                          </td>
+                          <td class="{{index.SENSEX.direction1}}">{{index.SENSEX.pct_chang}}%<i class="{{index.SENSEX.direction2}}"></i></td>
+                          <td>{{index.SENSEX.change}}</td>
+                          <td> 
+                            <h6>{{index.SENSEX.value}}</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="flag-wrap"><i class="flag-icon flag-icon-gbr"></i></div>
+                              <div class="media-body">FTSE 100</div>
+                            </div>
+                          </td>
+                          <td class="{{index.FTSE.direction1}}">{{index.FTSE.pct_chang}}%<i class="{{index.FTSE.direction2}}"></i></td>
+                          <td>{{index.FTSE.change}}</td>
+                          <td>
+                            <h6>{{index.FTSE.value}}</h6>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 cdx-xl-100">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card project-status">
+                        <div class="card-header">
+                          <h4>Gaza<br>Google Search Index</h4>
+                          <div class="setting-card action-menu"><a class="action-toggle" href="/explorer/timeline"><i class="codeCopy" data-feather="more-horizontal"></i></a>
+                            <ul class="action-dropdown">
+
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="card-body progressCounter">
+                          <div class="media">
+                            <div>
+                              <h2><span class="count">3936</span></h2>
+                            </div>
+                            <div class="media-body">                             <span class="badge badge-danger">3150%<i class="fa fa-angle-up"></i></span></div>
+                          </div>
+                          <div class="progress progress-primary">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">             </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card project-status">
+                        <div class="card-header">
+                          <h4>Palestine<br>Google Search Index</h4>
+                          <div class="setting-card action-menu"><a class="action-toggle" href="/explorer/timeline"><i class="codeCopy" data-feather="more-horizontal"></i></a>
+                          </div>
+                        </div>
+                        <div class="card-body progressCounter">
+                          <div class="media">
+                            <div>
+                              <h2><span class="count">4050</span></h2>
+                            </div>
+                            <div class="media-body">                             <span class="badge badge-danger">1750%<i class="fa fa-angle-up"></i></span></div>
+                          </div>
+                          <div class="progress progress-secondary">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100">     </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card project-status">
+                        <div class="card-header">
+                          <h4>Cricket World Cup<br>Google Search Index</h4>
+                          <div class="setting-card action-menu"><a class="action-toggle" href="/explorer/timeline"><i class="codeCopy" data-feather="more-horizontal"></i></a>
+                           
+                          </div>
+                        </div>
+                        <div class="card-body progressCounter">
+                          <div class="media">
+                            <div>
+                              <h2><span class="count">4701</span></h2>
+                            </div>
+                            <div class="media-body"><span class="badge badge-danger">1200%<i class="fa fa-angle-up"></i></span></div>
+                          </div>
+                          <div class="progress progress-info">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card project-status">
+                        <div class="card-header">
+                          <h4>Halloween<br>Google Search Index</h4>
+                          <div class="setting-card action-menu"><a class="action-toggle" href="/explorer/timeline"><i class="codeCopy" data-feather="more-horizontal"></i></a>
+                            
+                          </div>
+                        </div>
+                        <div class="card-body progressCounter">
+                          <div class="media">
+                            <div>
+                              <h2><span class="count">4896</span></h2>
+                            </div>
+                            <div class="media-body"><span class="badge badge-danger">250%<i class="fa fa-angle-up"></i></span></div>
+                          </div>
+                          <div class="progress progress-warning">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 cdx-xl-50">
+              <div class="card project-summarytbl">
+                <div class="card-header">
+                  <h4>Related News</h4>
+                  <div class="setting-card action-menu">
+                  
+                    
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Date</th>
+                          <th>Title</th>
+                          <th>Subject</th>
+                          <th>Prediction</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>2023.10.31</td>
+                          <td><a href="https://abcnews.go.com/International/wireStory/ap-photos-3-day-halloween-festival-draws-huge-104499894">3-day Halloween festival draws huge crowds to Romania's capital, Bucharest</a></td>
+                          <td>Bucharest</td>
+                          <td> <span class="badge badge-danger">Positive</span></td>
+                        </tr>
+                        <tr>
+                          <td>2023.10.31</td>
+                          <td><a href="https://www.theguardian.com/sport/2023/oct/30/cricket-world-cup-england-where-it-went-wrong">Where it all went wrong for England and how they can rebuild for T20 World Cup</a></td>
+                          <td>England</td>
+                          <td> <span class="badge badge-success">Negative</span></td>
+                        </tr>
+                        <tr>
+                          <td>2023.10.30</td>
+                          <td><a href="https://www.washingtonpost.com/world/2023/10/30/israel-war-hamas-gaza-news-palestine/">U.S. negotiated to restore internet, send more aid to Gaza, officials say</a></td>
+                          <td>Israel</td>
+                          <td><span class="badge badge-danger">Positive</span></td>
+                        </tr>
+                        <tr>
+                          <td>2023.10.30</td>
+                          <td><a href="https://www.aljazeera.com/news/liveblog/2023/10/30/israel-hamas-war-live-palestinian-death-toll-gaza-rises-above-8000">Israel-Hamas war live: Israeli tanks ‘leave’ Gaza City outskirts</a></td>
+                          <td>Al-Quds Hospital</td>
+                          <td><span class="badge badge-success">Negative</span></td>
+                        </tr>
+                        <tr>
+                          <td>2023.10.27</td>
+                          <td><a href="https://oberlinreview.org/31194/news/students-respond-to-ongoing-israeli-palestinian-conflict/">Students Respond to Ongoing Israeli-Palestinian Conflict</a></td>
+                          <td>Palestine</td>
+                          <td><span class="badge badge-danger">Positive</span></td>
+                        </tr>
+                        <tr>
+                          <td>2023.10.21</td>
+                          <td><a href="https://www.voanews.com/a/cairo-summit-fails-to-find-consensus-on-israeli-palestinian-conflict-/7320927.html">Cairo Summit Fails to Find Consensus on Israeli-Palestinian Conflict</a></td>
+                          <td>Israel</td>
+                          <td><span class="badge badge-success">Negative</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-6 cdx-xl-50 cdxorder-xl-1">
+              <div class="card visitor-performance">
+                <div class="card-header">
+                  <h4>Events Timeline</h4>
+                  <div class="setting-card action-menu">
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div id="chart3">
+                    <script>
+                        var options = {
+          series: [
+          {
+            data: [
+              {
+                x: 'Chips Act',
+                y: [
+                  new Date('2022-08-09').getTime(),
+                  new Date('2023-11-02').getTime()
+                ],
+                fillColor: '#775DD0'
+              },
+              {
+                x: 'Ukraine War',
+                y: [
+                  new Date('2022-02-04').getTime(),
+                  new Date('2023-11-02').getTime()
+                ],
+                fillColor: '#008FFB'
+              },
+              {
+                x: 'Fed interest rate',
+                y: [
+                  new Date('2023-01-31').getTime(),
+                  new Date('2023-07-26').getTime()
+                ],
+                fillColor: '#FEB019'
+              },
+              {
+                x: 'Artificial Intelligence',
+                y: [
+                  new Date('2022-11-30').getTime(),
+                  new Date('2023-11-2').getTime()
+                ],
+                fillColor: '#FF4560'
+              }
+            ]
+          }
+        ],
+          chart: {
+          height: 350,
+          type: 'rangeBar'
+        },
+        plotOptions: {
+          bar: {
+            horizontal: true
+          }
+        },
+        xaxis: {
+          type: 'datetime'
+        }
+        };
+
+        var chart3 = new ApexCharts(document.querySelector("#chart3"), options);
+        chart3.render();
+
+
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-6 cdx-xl-50">
+              <div class="card recent-ordertbl">
+                <div class="card-header">
+                  <h4>News Event</h4>
+                  <div class="setting-card action-menu">
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Date</th>
+                          <th>Title</th>
+                          <th>Summary</th>
+                          <th>Subject</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="media">
+                             <div class="media-body">2023.11.1</div>
+                            </div>
+                          </td>
+                          <td><a class="text-light" href="https://finance.yahoo.com/news/fed-expected-to-hold-rates-at-22-year-high-but-leave-hikes-on-the-table-094002863.html"> Fed expected to hold rates at 22-year high but leave hikes on the table</a></td>
+                          <td>Wall Street anticipates the Federal Reserve to maintain interest rates but remains open ...</td>
+                          <td>Fed</td>
+                          <td> <span class="badge badge-primary">Positive</span></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                             <div class="media-body">2023.11.1</div>
+                            </div>
+                          </td>
+                          <td><a class="text-light" href="https://finance.yahoo.com/video/why-may-time-magnificent-seven-133958352.html">Why it may be time for the Magnificent Seven to break up</a></td>
+                          <td>
+Interactive Brokers Chief Strategist Steve Sosnick expresses concerns about ...</td>
+                          <td>Magnificant 7</td>
+                          <td> <span class="badge badge-secondary">Negative</span></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="media-body">2023.11.1</div>
+                            </div>
+                          </td>
+                          <td> <a class="text-light" href="https://finance.yahoo.com/news/stock-market-news-today-us-stocks-close-higher-in-countdown-to-fed-200111061.html">Stock market news today: US stocks close higher in countdown to Fed</a></td>
+                          <td>US stocks closed higher amid their third consecutive month of losses...</td>
+                          <td>US stocks</td>
+                          <td> <span class="badge badge-primary">Positive</span></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="media-body">2023.10.31</div>
+                            </div>
+                          </td>
+                          <td> <a class="text-light" href="https://finance.yahoo.com/news/billionaire-investor-stanley-druckenmiller-accuses-125123462.html">Billionaire investor Stanley Druckenmiller accuses Janet Yellen ...</a></td>
+                          <td>Billionaire hedge funder Stanley Druckenmiller has criticized Janet Yellen, the U.S. Treasury Secretary, calling her actions...</td>
+                          <td>Janet Yellen</td>
+                          <td> <span class="badge badge-secondary">Negative</span></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="media-body">2023.10.31</div>
+                            </div>
+                          </td>
+                          <td> <a class="text-light" href="https://finance.yahoo.com/m/e47d6ad7-2828-3d78-9a40-9c7b5c673561/chipmaker-amd-returns-to.html">Chipmaker AMD Returns To Sales, Earnings Growth With Q3 Report</a></td>
+                          <td>Chipmaker AMD beat Wall Street's targets for the third quarter ...</td>
+                          <td>AMD</td>
+                          <td> <span class="badge badge-primary">Positive</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-6 cdx-xl-50 cdxorder-xl-1">
+              <div class="card support-inboxtbl">
+                <div class="card-header">
+                  <h4>Celebrity</h4>
+                  <div class="setting-card action-menu">
+
+
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="img-wrap"><img class="img-fluid" src="/static/assets/images/celebrity/buffet.png" alt="recent-product"></div>
+                              <div class="media-body">
+                                <h6>Warren Buffet</h6>
+                                <p class="text-light">Warren Buffett's Japan trade felt like a gift ...</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td><a href="https://finance.yahoo.com/news/warren-buffetts-japan-trade-felt-004251481.html"><span class="badge badge-primary">Learn More</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="img-wrap"><img class="img-fluid" src="/static/assets/images/celebrity/charlie.png" alt="recent-product"></div>
+                              <div class="media-body">
+                                <h6>Charlie Thomas Munger</h6>
+                                <p class="text-light">Why not waste another £400 million on AI then? ...</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td><a href="https://www.adamsmith.org/blog/why-not-waste-another-400-million-on-ai-then"><span class="badge badge-primary">Learn More</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="img-wrap"><img class="img-fluid" src="/static/assets/images/celebrity/cook.png" alt="recent-product"></div>
+                              <div class="media-body">
+                                <h6>Tim Cook</h6>
+                                <p class="text-light">Apple announces new MacBook Pros, chips at 'Scary Fast' event ...</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td><a href="https://vnexplorer.net/apple-announces-new-macbook-pros-chips-at-scary-fast-event-s6545809.html"><span class="badge badge-primary">Learn More</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="img-wrap"><img class="img-fluid" src="/static/assets/images/celebrity/trump.png" alt="recent-product"></div>
+                              <div class="media-body">
+                                <h6>Donald Trump</h6>
+                                <p class="text-light">Mike Johnson symbolizes how Trump’s MAGA movement has absorbed the ...</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td><a href="https://www.cnn.com/2023/10/31/politics/mike-johnson-donald-trump-religious-right/index.html"><span class="badge badge-primary">Learn More</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="img-wrap"><img class="img-fluid" src="/static/assets/images/celebrity/biden.png" alt="recent-product"></div>
+                              <div class="media-body">
+                                <h6>Joe Biden</h6>
+                                <p class="text-light">Biden signs order on AI | News, Sports, Jobs ...</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td><a href="https://www.altoonamirror.com/news/2023/10/biden-signs-order-on-ai/"><span class="badge badge-primary">Learn More</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="media">
+                              <div class="img-wrap"><img class="img-fluid" src="/static/assets/images/celebrity/jeff.png" alt="recent-product"></div>
+                              <div class="media-body">
+                                <h6>Jeff Bezos</h6>
+                                <p class="text-light">The Journey To Fortune: Top 5 Richest People In The World ...</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td><a href="https://www.refersms.com/the-journey-to-fortune-top-5-richest-people-in-the-world/"><span class="badge badge-primary">Learn More</span></a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 cdx-xl-50 cdxorder-xl-1">
+              <div class="card dash-chat">
+                <div class="card-header">
+                  <h4>AI Assistant</h4>
+                </div>
+                <div class="card-body"> 
+                  <div class="dash-chatbox">
+
+
+                    <ul class="chating-list" data-simplebar>
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="/static/assets/images/avtar/bot.png" alt="image">
+                            <div class="media-body" id="messageContainer">
+                              <p>Hello! I'm an AI assistant that can provide you with counseling services! Glad to help you! Feel free to type below and I'll answer your question.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+                    <div class="userchat-typebox d-flex"><a class="btn btn-primary mr-10"><i data-feather="smile"></i></a>
+                      <input id="messageInput" class="form-control" type="text" placeholder="Type a message" value="" autocomplete="off">
+                      <a class="btn btn-primary ml-10" onclick="submitchat()"> <i data-feather="send"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <script>
+        function submitchat() {
+          var message = document.getElementById("messageInput").value;
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', '/explorer/chatterbot/', true);
+          xhr.setRequestHeader('Content-Type', 'application/json');
+          var data = JSON.stringify({
+            content: message
+          });
+          xhr.onload = function () {
+            if (xhr.status === 200) {
+              var response = JSON.parse(xhr.responseText);
+              if (response.response === 'OK') {
+                var messageContainer = document.getElementById("messageContainer");
+                messageContainer.innerHTML = '<p>' + response.content + '</p>';
+              }
+              else {
+
+              }
+            }
+            else {}
+          };
+          xhr.send(data);
+        }
+        </script>
+
+
+
+<!--            <div class="card earning-revenue">-->
+<!--              <div class="col-xxl-6 cdx-xxl-100">-->
+            <div class="card earning-chart">
+                <div class="card-header">
+                  <h4>China Macro Analysis</h4>
+
+                </div>
+
+<!--                <div class="card-body">-->
+<!--                  <div id="earning-revenue">-->
+<!--                <div class="col-xxl-6 cdx-xxl-100">-->
+                  <div id="chart2">
+                    <script>
+                    var timeData = "{{ macro.time_d | escapejs }}";
+    timeData = timeData.replace(/\u0027/g, '"');
+    var jsonArray = JSON.parse(timeData); // 将字符串解析为JavaScript数组
+
+
+     var options2 = {
+          series: [{
+            name: 'Growth',
+            data: {{macro.grow_d}}
+          },
+          {
+            name: 'Economy',
+            data: {{macro.econ_d}}
+          },
+          {
+            name: 'Mood',
+            data: {{macro.Mood_d}}
+          },
+          {
+            name: 'Price',
+            data: {{macro.p_d}}
+          },
+          {
+            name: 'Finance',
+            data: {{macro.f_d}}
+          }
+        ],
+          chart: {
+          height: 350,
+          type: 'line',
+          zoom: {
+            enabled: true
+          },
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          width: [5, 7, 5, 7,5],
+          curve: 'straight',
+          dashArray: [0, 8, 5, 8, 5]
+        },
+        title: {
+          text: 'Macro Index(Nowcasting)',
+          align: 'left'
+        },
+        legend: {
+          tooltipHoverFormatter: function(val, opts) {
+            return val + ' - ' + opts.w.globals.series[opts.seriesIndex][opts.dataPointIndex] + ''
+          }
+        },
+        markers: {
+          size: 0,
+          hover: {
+            sizeOffset: 6
+          }
+        },
+        xaxis: {
+          categories: jsonArray,
+          tickAmount: 20,
+        },
+        tooltip: {
+          y: [
+            {
+              title: {
+                formatter: function (val) {
+                  return val
+                }
+              }
+            },
+            {
+              title: {
+                formatter: function (val) {
+                  return val
+                }
+              }
+            },
+            {
+              title: {
+                formatter: function (val) {
+                  return val;
+                }
+              }
+            }
+          ]
+        },
+        grid: {
+          borderColor: '#f1f1f1',
+        }
+        };
+                    var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+                    chart2.render();
+                    </script>
+                  </div>
+            </div>
+<!--                </div>-->
+                </div>
+<!--              </div>-->
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- theme body end-->
+    </div>
+    <!-- footer start-->
+      <footer class="codex-footer">
+        <p>Copyright 2023 © Explorer All rights reserved.</p>
+      </footer>
+    <!-- footer end-->
+    <!-- back to top start //-->
+      <div class="scroll-top"><i class="fa fa-angle-double-up"></i></div>
+    <!-- back to top end //-->
+      <!-- main jquery-->
+      <script src="/static/assets/js/jquery-3.6.0.js"></script>
+      <!-- Theme Customizer-->
+      <script src="/static/assets/js/layout-storage.js"></script>
+      <script src="/static/assets/js/customizer.js"></script>
+      <!-- Feather icons js-->
+      <script src="/static/assets/js/icons/feather-icon/feather.js"></script>
+      <!-- Bootstrap js-->
+      <script src="/static/assets/js/bootstrap.bundle.min.js"></script>
+      <!-- Scrollbar-->
+      <script src="/static/assets/js/vendors/simplebar.js"></script>
+      <!-- apex chart-->
+      <script src="/static/assets/js/vendors/chart/apexcharts.js"></script>
+      <!-- dashboard-->
+      <script src="/static/assets/js/dashboard/dashboard.js"></script>
+      <!-- Custom script-->
+      <script src="/static/assets/js/custom-script.js"></script>
+  </body>
+</html>

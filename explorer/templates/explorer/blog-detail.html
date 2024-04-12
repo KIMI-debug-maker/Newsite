@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="">
+      <meta name="keywords" content="admin template,html 5 admin template , explorer admin , dashboard template, bootstrap 5 admin template, responsive admin template">
+      <title>Explorer |Blog detail
+      </title>
+      <!-- shortcut icon-->
+      <link rel="icon" href="/static/assets/images/logo/icon-logo.png" type="image/x-icon">
+      <link rel="shortcut icon" href="/static/assets/images/logo/icon-logo.png" type="image/x-icon">
+      <!-- Fonts css-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+      <!-- Font awesome -->
+      <link href="/static/assets/css/vendor/font-awesome.css" rel="stylesheet">
+      <!-- themify icon-->
+      <link href="/static/assets/css/vendor/themify-icons.css" rel="stylesheet">
+      <!-- Scrollbar-->
+      <link href="/static/assets/css/vendor/simplebar.css" rel="stylesheet">
+      <!-- Bootstrap css-->
+      <link href="/static/assets/css/vendor/bootstrap.css" rel="stylesheet">
+      <!-- Custom css-->
+      <link href="/static/assets/css/style.css" id="customstyle" rel="stylesheet">
+    </head>
+  <body>
+      <!-- Loader Start-->
+        <div class="codex-loader">     
+          <div class="linespinner"></div>
+        </div>
+      <!-- Loader End-->
+      <!-- Header Start-->
+      <header class="codex-header">
+        <div class="header-contian d-flex justify-content-between align-items-center">
+          <div class="header-left d-flex align-items-center">
+            <div class="sidebar-action navicon-wrap"><i data-feather="menu"></i></div>
+            <div class="search-bar">
+              <div class="form-group mb-0">
+                <div class="input-group">
+                  <input class="form-control" type="text" value="" placeholder="Search Here....."><span class="input-group-text"><i data-feather="search"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-right d-flex align-items-center justify-content-end">
+            <ul class="nav-iconlist">
+              <li>
+                <div class="navicon-wrap action-dark"><i class="fa fa-moon-o icon-dark"></i><i class="fa fa-sun-o icon-light" style="display:none;"></i></div>
+              </li>
+              <li>
+                <div class="navicon-wrap"><i data-feather="bell"></i>
+                  <div class="noti-count">03</div>
+                </div>
+                <div class="hover-dropdown navnotification-drop">
+                  <div class="drop-header">
+                    <h5>notification<span>03</span></h5>
+                  </div>
+                  <ul data-simplebar>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-primary"><i class="fa fa-check-square-o"></i></div>
+                          <div class="media-body">
+                            <h6>Israeli-Palestinian conflict</h6><span class="text-light">1 hour ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-secondary"><i class="fa fa-first-order"></i></div>
+                          <div class="media-body">
+                            <h6>FED</h6><span class="text-light">1 day ago</span>
+                          </div>
+                        </div></a></li>
+                    <li><a href="javascript:void(0);">
+                        <div class="media">
+                          <div class="icon-nav bg-success"><i class="fa fa-money"></i></div>
+                          <div class="media-body">
+                            <h6>Fintech</h6><span class="text-light">2 day ago</span>
+                          </div>
+                        </div></a></li>
+                  </ul>
+
+                </div>
+              </li>
+              <li>
+                <div class="navicon-wrap btn-windowfull"><i data-feather="maximize"></i></div>
+              </li>
+              <li class="nav-profile">
+                <div class="media">
+                  <div class="user-icon"><img class="img-fluid rounded-50" src="/static/assets/images/avtar/1.jpg" alt="logo"></div>
+                  <div class="media-body">
+                    <h6>Thomas Vactom</h6>
+                  </div>
+                </div>
+                <div class="hover-dropdown navprofile-drop">
+                  <ul>
+                    <li><a href="/explorer/settings"><i class="ti-user"></i>profile</a></li>
+<!--                    <li><a href="email-inbox.html"><i class="ti-email"></i>inbox</a></li>-->
+                    <li><a href="/explorer/settings"><i class="ti-settings"></i>setting</a></li>
+                    <li><a href="/explorer"><i class="fa fa-sign-out"></i>log out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Header End-->
+      <!-- sidebar start-->
+      <aside class="codex-sidebar">
+        <div class="logo-gridwrap"><a class="codexbrand-logo" href="/explorer/index"><img class="img-fluid left-corner-img" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a><a class="codex-darklogo" href="/explorer/index"><img class="img-fluid" src="/static/assets/images/logo/explorer_2.png" alt="theeme-logo"></a>
+          <div class="sidebar-action"><i data-feather="menu"></i></div>
+        </div>
+        <div class="icon-logo"><a href="/explorer/index"><img class="img-fluid" src="/static/assets/images/logo/icon-logo.png" alt="theeme-logo"></a></div>
+        <div class="codex-menuwrapper">
+          <ul class="codex-menu custom-scroll" data-simplebar>
+            <li class="cdxmenu-title">
+              <h5>Home</h5>
+            </li>
+            <li class="menu-item"><a href="/explorer/index">
+                <div class="icon-item"><i class="fa fa-search"></i></div><span>Discover</span></a></li>
+            <li class="menu-item"><a href="/explorer/portfolio">
+                <div class="icon-item"><i class="fa fa-user-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-user-circle" aria-label="fa fa-user-circle"></i></div><span>My Portfolio</span></a></li>
+            <li class="cdxmenu-title">
+              <h5>application</h5>
+            </li>
+
+            <li class="menu-item"><a href="javascript:void(0);">
+                <div class="icon-item"><i class="fa fa-newspaper-o" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-newspaper-o" aria-label="fa fa-newspaper-o"></i></div><span>Events</span><i class="fa fa-angle-down"></i></a>
+              <ul class="submenu-list">
+                <li><a href="/explorer/timeline">Timeline</a></li>
+                <li><a href="/explorer/analysis">Analysis</a></li>
+                <li><a href="/explorer/perspective">Perspective</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item"><a href="/explorer/chatting">
+                <div class="icon-item"><i data-feather="message-square"></i></div><span>Chat</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/inference">
+                <div class="icon-item"><i class="fa fa-fighter-jet" data-bs-toggle="tooltip" title="" data-bs-original-title="fa fa-fighter-jet" aria-label="fa fa-fighter-jet"></i></div><span>Inference</span></a></li>
+
+            <li class="menu-item"><a href="/explorer/settings">
+                <div class="ti-settings"><i ></i></div><span>&nbsp&nbspSetting</span></a></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- sidebar end-->
+    <div class="themebody-wrap">
+      <!-- breadcrumb start-->
+      <div class="codex-breadcrumb">  
+        <div class="breadcrumb-contain">
+          <div class="left-breadcrumb">
+            <ul class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="/explorer/index">
+                  <h1>Application</h1></a></li>
+              <li class="breadcrumb-item"><a href="javascript:void(0);">Events</a></li>
+              <li class="breadcrumb-item active"><a href="javascript:void(0);">Perspective</a></li>
+            </ul>
+          </div>
+          <div class="right-breadcrumb">
+            <ul>
+              <li>
+                <div class="bread-wrap"><i class="fa fa-clock-o"></i></div><span class="liveTime"></span>
+              </li>
+              <li>
+                <div class="bread-wrap"><i class="fa fa-calendar"></i></div><span class="getDate"> </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- breadcrumb end-->
+      <!-- theme body start-->
+      <div class="theme-body">
+        <div class="custom-container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card blogdetail-wrrapper">
+                <div class="imgwrapper"><img class="img-fluid" src="/static/assets/images/pages/blog/detail-main.jpg" alt="">
+<!--                  <ul class="blog-iconlist">-->
+<!--                    <li><a href="javscript:void(0)"><i data-feather="heart"></i></a></li>-->
+<!--                    <li><a href="javscript:void(0)"><i data-feather="thumbs-up"></i></a></li>-->
+<!--                    <li><a href="javscript:void(0)"><i data-feather="share-2"></i></a></li>-->
+<!--                  </ul>-->
+                </div>
+                <div class="detailwrapper">
+                  <h4>The Israeli-Palestinian conflict intensifies</h4>
+            
+                  <p>The recent Israel-Palestine conflict has seen various developments which are having a significant impact locally and internationally. One notable event is Japan and the United States announcing sanctions on individuals and a company due to their connections with Hamas​1​. Furthermore, Israeli forces have pushed deeper into Gaza amid heavy bombing, with former Prime Minister Netanyahu having rejected a ceasefire proposal after a captive video emerged​2​.</p>
+                  <p>In a harrowing incident, a strike on a Gaza hospital killed hundreds of Palestinians, exacerbating tensions in the Middle East and drawing attention from U.S. President Joe Biden, who later traveled to Israel​3​. The UN Middle East envoy has warned that the conflict is nearing a 'boiling point' with escalating violence amidst stalled peace processes​4​.</p>
+                  <p>On a more detailed note, recent events have highlighted the humanitarian crisis in the region. For instance, aid groups have condemned Israel's bombing of Jabalia refugee camp, and health officials warned that two hospitals were nearly out of fuel​5​. Besides, an Israeli air raid resulted in the tragic loss of 19 family members of an Al Jazeera engineer​5​. Additionally, the recent Israeli attack on Jabalia refugee camp in Gaza resulted in more than 50 deaths and left 150 others wounded​5​.</p>
+                  <p>The crisis has also had geopolitical ramifications. For instance, a US rights group criticized President Biden’s funding request to Congress, hinting that the US might 'bankroll' the displacement of Palestinians​5​. The UN Chief, Antonio Guterres, mentioned that the aid trickling into Gaza is completely inadequate, warning of potential regional escalation due to the ongoing conflict​5​. Furthermore, clashes at the Lebanon-Israel border have intensified, displacing thousands, and raising concerns of a wider conflict between Israel and Hezbollah​5​.</p>
+                  <p>These developments are creating a complex scenario with a profound human, political, and international relations impact, showcasing the urgent need for a sustainable resolution to the Israel-Palestine conflict.</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4><i class="fa fa-commenting mr-10"></i>Conclusions</h4>
+                </div>
+                <div class="card-body">
+                
+                  <ul class="blgcomment-list">
+                    <li>
+                      <h6 align="left"><i class="fa fa-exclamation"></i>   Risk </h6>
+                      <div class="comment-item">
+                        <div class="media">
+                          <div class="media-body">
+                            <ul class="blogsoc-list">                           
+
+                            </ul>
+                            <h7>Security Market:</h7>
+                            <p>Encompassing instruments such as stocks and bonds, is fraught with various risks. A predominant concern is the market risk, where the potential for the entire market to decline can impact most securities. Liquidity risk is also a vital consideration, especially when certain securities might not be easily tradable, leading to drastic price fluctuations during sales. Bonds, in particular, face interest rate risks, with rising rates often causing bond prices to plummet. Furthermore, the inherent credit risk in the security market signifies that there's always a chance for a company or bond issuer to default. Beyond these intrinsic risks, external factors like regulatory changes or political instabilities can unpredictably influence security prices.</p>
+                            <br>
+                            <h7>Commodity Market:</h7>
+                            <p>Dealing with tangible goods ranging from metals to agricultural produce, has its own set of challenges. Commodities can experience considerable volatility due to shifts in supply and demand. Geopolitical events, including wars or embargoes, have historically shown their capacity to disrupt commodity prices. Agricultural commodities are especially sensitive to weather patterns, and the tangible nature of commodities introduces challenges related to storage and potential decay. Regulatory landscapes, too, play a pivotal role, with trade restrictions or tariffs potentially altering commodity values dramatically.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <h6 align="left"><i class="fa fa-lightbulb-o"></i>   Opportunity</h6>
+                      <div class="comment-item">
+                        <div class="media">
+                          <div class="media-body">
+                            <ul class="blogsoc-list">                           
+
+                            </ul>
+                            <h7>Security Market:</h7>
+                            <p>Offers a plethora of opportunities. Investors can anticipate potential capital appreciation, witnessing their securities increase in value over time. A lucrative aspect of stocks is the possibility of regular dividend incomes, providing a consistent revenue stream for investors. The diverse range of instruments available in this market enables investors to craft a balanced and diversified portfolio. Moreover, the inherent liquidity of major securities, like stocks and bonds, allows for easy trade and flexibility.</p>
+                            <br>
+                            <h7>Commodity Market:</h7>
+                            <p>It's evident that commodities can serve as effective hedges against fluctuations in inflation or currency values. The distinct risk profile of commodities can complement a securities-centric portfolio, providing a layer of balance. The volatile nature of this market, while a double-edged sword, can be lucrative for adept speculators. Furthermore, the trajectory of global trends, such as rising populations and accelerated urbanization, hints at a sustained or even increasing demand for certain commodities, presenting long-term investment opportunities.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4><i class="fa fa-commenting mr-10"></i>Suggestions</h4>
+
+                </div>
+                <div class="card-body">
+
+                  <ul class="blgcomment-list">
+                    <li>
+                      <div class="comment-item">
+                        <div class="media">
+                          <div class="media-body">
+                            <ul class="blogsoc-list">                           
+
+                            </ul>
+                            <h7>Security Market:</h7>
+                            <p>Investors can anticipate potential capital appreciation, witnessing their securities increase in value over time. A lucrative aspect of stocks is the possibility of regular dividend incomes, providing a consistent revenue stream for investors. The diverse range of instruments available in this market enables investors to craft a balanced and diversified portfolio. Moreover, the inherent liquidity of major securities, like stocks and bonds, allows for easy trade and flexibility.</p>
+                            <br>
+                            <h7>Commodity Market:</h7>
+                            <p>It's evident that commodities can serve as effective hedges against fluctuations in inflation or currency values. The distinct risk profile of commodities can complement a securities-centric portfolio, providing a layer of balance. The volatile nature of this market, while a double-edged sword, can be lucrative for adept speculators. Furthermore, the trajectory of global trends, such as rising populations and accelerated urbanization, hints at a sustained or even increasing demand for certain commodities, presenting long-term investment opportunities.</p>
+                        </div>
+                      </div>
+                    </li>
+                    
+                
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer start-->
+      <footer class="codex-footer">
+        <p>Copyright 2023 © Explorer All rights reserved.</p>
+      </footer>
+    <!-- footer end -->
+    <!-- back to top start //-->
+      <div class="scroll-top"><i class="fa fa-angle-double-up"></i></div>
+    <!-- back to top end //-->
+      <!-- main jquery-->
+      <script src="/static/assets/js/jquery-3.6.0.js"></script>
+      <!-- Theme Customizer-->
+      <script src="/static/assets/js/layout-storage.js"></script>
+      <script src="/static/assets/js/customizer.js"></script>
+      <!-- Feather icons js-->
+      <script src="/static/assets/js/icons/feather-icon/feather.js"></script>
+      <!-- Bootstrap js-->
+      <script src="/static/assets/js/bootstrap.bundle.min.js"></script>
+      <!-- Scrollbar-->
+      <script src="/static/assets/js/vendors/simplebar.js"></script>
+      <!-- Custom script-->
+      <script src="/static/assets/js/custom-script.js"></script>
+  </body>
+</html>
